@@ -71,6 +71,7 @@
 
 #header-rectangles {
     margin-top: 180px;
+    margin-bottom: 100px;
     font-family: Montserrat;
     font-size: 15px;
     font-weight: bold;
@@ -114,6 +115,103 @@
     margin-top: 40px;
     background-image: linear-gradient(rgba(37, 77, 116,0.5), rgba(37, 77, 116,0.5)), url("./images/HeaderImage4.png");
     background-repeat: no-repeat;
+}
+
+#aviation{
+    margin-top: 120px;
+}
+
+#aviation-homepage{
+    height: 10px;
+}
+
+#aviation-blue-rectangle{
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #0285b7;
+}
+
+#aviation-homepage-image{
+    width: 1143px;
+    height: 647px;
+    box-shadow: 0px -1px 15px 0 rgba(13, 12, 12, 0.25);
+    background-color: #0285b7;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/AviationImageHome.png");
+}
+
+#container-aviation-homepage{
+    height: 350px;
+    width: 300px;
+}
+
+.h1-aviation-homepage{
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 3;
+    letter-spacing: 0.15px;
+    color: #ffffff;
+}
+
+#aviation-rectangle{
+    width: 25px;
+    height: 8px;
+    margin-top: -50px;
+}
+
+.h3-aviation-homepage{
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: rgba(244, 244, 243, 0.7);
+}
+
+#h3-sms-development-aviation-homepage{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+
+#white-square-homepage{
+    width: 10px;
+    height: 10px;
+    margin-left: -25px;
+    margin-right: 13px;
+}
+
+#sms-development-text{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 300px;
+}
+
+#title-aviation-image-text{
+    font-family: Montserrat;
+    font-size: 24.5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#aviation-image-text{
+    font-family: Montserrat;
+    font-size: 16.5px;
+    line-height: 1.33;
+    text-align: justify;
+    color: rgba(244, 244, 243, 0.7);
+}
+
+#button-read-more{
+    width: 164px;
+    height: 49px;
+    font-family: Montserrat;
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.17px;
+    border-radius: 0.1px;
+    background-color: #f4f4f3
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
