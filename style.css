@@ -69,15 +69,62 @@
     color: #ffffff;
 }
 
+#header-rectangles {
+    margin-top: 180px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#first-header-rectangle{
+    width: 200px; 
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 163, 204,0.7), rgba(0, 163, 204,0.7)), url("./images/HeaderImage1.png"); 
+    background-repeat: no-repeat;
+}
+
+#second-header-rectangle{
+    width: 200px; 
+    height: 200px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(37, 77, 116,0.5), rgba(37, 77, 116,0.5)), url("./images/HeaderImage2.png");
+    background-repeat: no-repeat;
+}
+
+#third-header-rectangle{
+    width: 200px; 
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 163, 204,0.7), rgba(0, 163, 204,0.7)), url("./images/HeaderImage3.png");
+    background-repeat: no-repeat;
+}
+
+#fourth-header-rectangle{
+    width: 200px; 
+    height: 200px;
+    margin-top: 40px;
+    background-image: linear-gradient(rgba(37, 77, 116,0.5), rgba(37, 77, 116,0.5)), url("./images/HeaderImage4.png");
+    background-repeat: no-repeat;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 576px) { 
     #logo {
         margin-top: -13px;
     }
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
     #logo {
         margin-top: -13px;
         margin-left: 15px;
@@ -85,9 +132,9 @@
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
 }
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (max-width: 1200px) {
 }
