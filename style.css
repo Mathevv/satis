@@ -119,6 +119,7 @@
 
 #aviation{
     margin-top: 120px;
+    position: absolute;
 }
 
 #aviation-homepage{
@@ -214,10 +215,54 @@
     background-color: #f4f4f3
 }
 
+#legal-section{
+    position: absolute;
+    margin-top: 800px;
+}
+
+#icon-legal-home{
+    width: 90px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.h3-legal{
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 2.33;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #191919;
+}
+
+#h3-legal-underline{
+    margin-top: 120px;
+    margin-left: -60px;
+    margin-bottom: 50px;
+}
+
+#p-iconlegal-description{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    color: #191919;
+}
+
+#blue-upright-rectangle{
+    height: 150px;
+    margin-top: 30px;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
     #logo {
         margin-top: -13px;
+    }
+    #aviation {
+        margin-top: 300px;
     }
 }
 
@@ -226,6 +271,15 @@
     #logo {
         margin-top: -13px;
         margin-left: 15px;
+    }
+    #aviation-homepage-image{
+        margin-top: -40px;
+    }
+    .h3-aviation-homepage{
+        margin-top: 70px;
+    }
+    #legal-section{
+        margin-top: 1350px;
     }
 }
 
