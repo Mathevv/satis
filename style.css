@@ -319,7 +319,6 @@
 }
 
 #coaching-text{
-    text-align: right;
     width: 500px;
     margin-left: 700px;
     margin-top: 300px;
@@ -340,6 +339,63 @@
     color: rgba(244, 244, 243, 0.7);
 }
 
+#team{
+    margin-top: 750px;
+    margin-left: 100px;
+}
+
+.h1-team-homepage{
+    font-family: Montserrat;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 2.33;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #191919;
+}
+
+#team-rectangle{
+    margin-top: -40px;
+}
+
+.h3-team-text{
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: rgba(0,0,0,0.5);
+}
+
+#team-image{
+    width: 234px;
+    height: 235px;
+    box-shadow: 0px -1px 15px 0 rgba(13, 12, 12, 0.12);
+}
+
+#col-margin{
+    margin-left: -170px;
+}
+
+#figcaption-normal-text{
+    font-family: Montserrat;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: rgba(0,0,0,0.6);
+}
+
+#figcaption-bold-text{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: #191919;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
     #logo {
@@ -347,6 +403,9 @@
     }
     #aviation {
         margin-top: 300px;
+    }
+    #team{
+        margin-top: 1000px;
     }
 }
 
@@ -370,6 +429,9 @@
     }
     #training-blue-rectangle{
         margin-top: -50px;
+    }
+    #team{
+        margin-top: 1000px;
     }
 }
 
