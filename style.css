@@ -396,6 +396,111 @@
     color: #191919;
 }
 
+#footer{
+    padding: 40px 10px 40px 300px;
+    background-color: #273f4b;
+}
+
+.references{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.references a{
+    padding-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icons-footer{
+    margin-top: -10px;
+    display: flex;
+    text-align: center;
+}
+
+.icons-footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.address{
+    margin-top: -15px;
+    font-family: Montserrat;
+    font-size: 11.5px;
+    line-height: 1.91;
+    text-align: left;
+    color: #ffffff;
+}
+
+.contact{
+    margin-top: -10px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    color: #f4f4f3;
+}
+
+#copyright-artneo-footer{
+    padding-top: 20px;
+}
+
+#copyright-footer{
+    padding-left: 45px;
+    font-family: Montserrat;
+    font-size: 13.5px;
+    line-height: 1;
+    letter-spacing: 0.07px;
+    text-align: left;
+    color: #a3a9ad; 
+}
+
+#artneo-footer{
+    padding-left: 60px;
+    font-family: Montserrat;
+    font-size: 13.5px;
+    line-height: 1;
+    letter-spacing: 0.07px;
+    text-align: left;
+}
+
+#artneo-footer a{
+    text-decoration: none;
+    color: #a3a9ad;
+}
+
+#first-footer-rectangle{
+    width: 2px;
+    height: 69px;
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-right: 20px;
+    opacity: 0.2;
+    color: #a3a9ad;
+}
+
+#second-footer-rectangle{
+    width: 2px;
+    height: 69px;
+    margin-top: -20px;
+    margin-right: 50px;
+    margin-left: 45px;
+    opacity: 0.2;
+    color: #a3a9ad;
+}
+
+#third-footer-rectangle{
+    width: 2px;
+    height: 69px;
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-left: -80px;
+    opacity: 0.2;
+    color: #a3a9ad;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
     #logo {
