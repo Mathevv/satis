@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Start Navbar section */
 .navbar{
     width: 100%;
     height: 70px;
@@ -18,7 +18,8 @@
     background-color:white;
     box-shadow: 0 15px 0 #04B1D8;
 }
-
+/* End Navbar section */
+/* Start Header section */
 .jumbotron{
     height: 550px;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/BackgroundHeaderHome.png");
@@ -116,7 +117,8 @@
     background-image: linear-gradient(rgba(37, 77, 116,0.5), rgba(37, 77, 116,0.5)), url("./images/HeaderImage4.png");
     background-repeat: no-repeat;
 }
-
+/* End Header section */
+/* Start Aviation-Homepage section */
 #aviation{
     margin-top: 120px;
     position: absolute;
@@ -213,7 +215,8 @@
     border-radius: 0.1px;
     background-color: #f4f4f3
 }
-
+/* End Aviation-Homepage section */
+/* Start Legal section */
 #legal-section{
     position: absolute;
     margin-top: 800px;
@@ -254,7 +257,8 @@
     height: 150px;
     margin-top: 30px;
 }
-
+/* End Legal section */
+/* Start Training-Homepage section */
 #training{
     margin-top: 1300px;
 }
@@ -338,7 +342,8 @@
     text-align: justify;
     color: rgba(244, 244, 243, 0.7);
 }
-
+/* End Training-Homepage section */
+/* Start Team section */
 #team{
     margin-top: 750px;
     margin-left: 100px;
@@ -395,7 +400,8 @@
     text-align: left;
     color: #191919;
 }
-
+/* End Team section */
+/* Start Footer section */
 #footer{
     padding: 40px 10px 40px 300px;
     background-color: #273f4b;
@@ -500,6 +506,7 @@
     opacity: 0.2;
     color: #a3a9ad;
 }
+/* End Footer section */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
