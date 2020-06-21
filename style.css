@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Start home.html */
 /* Start Navbar section */
 .navbar{
     width: 100%;
@@ -507,6 +509,122 @@
     color: #a3a9ad;
 }
 /* End Footer section */
+/* End home.html */
+
+/* Start aviation.html */
+/* Start Header Section */
+#aviation-header{
+    height: 256px;
+    background-color: #04b1d8;
+}
+
+.sms-development-aviation{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.title-header-aviation-page{
+    margin-bottom: -10px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.text-header-aviation-page{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 16.5px;
+    font-weight: bold;
+    line-height: 1.82;
+    text-align: justify;
+    color: #ffffff;
+}
+
+#image-menu-aviation-page{
+    width: 411px;
+    height: 800px;
+    position: absolute;
+    margin-left: 180px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/SubpageImage.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.title-image-aviation-page{
+    padding-top: 260px;
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-size: 35.5px;
+    font-weight: bold;
+    line-height: 0.85;
+    text-align: left;
+    color: #f4f4f3;
+}
+
+#menu-aviation-page{
+    width: 411px;
+    height: 479px;
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-left: -15px;
+    padding-left: 30px;
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.clicked-menu-aviation-page{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    color: #191919;
+}
+
+#blue-square-menu-aviation-page{
+    margin-right: 20px;
+    margin-left: -30px;
+    width: 11px;
+    height: 10px;
+}
+
+.text-aviation-page{
+    margin-top: 60px;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: justify;
+    color: rgba(0,0,0,0.7);
+}
+/* End Header Section */
+/* Start Table Section */
+#table-aviation-page{
+    width: 850px;
+    margin-top: 550px;
+    margin-left: 115px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2;
+    text-align: justify;
+    color: #191919;
+}
+/* End Table Section */
+/* Start Footer Section */
+#footer-aviation-page{
+    margin-top: 544px;
+    padding: 40px 10px 40px 300px;
+    background-color: #273f4b;
+}
+/* End Footer Section */
+/* End aviation.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
