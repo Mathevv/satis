@@ -550,7 +550,6 @@
     position: absolute;
     margin-left: 180px;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/SubpageImage.png");
-    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -604,8 +603,7 @@
     text-align: justify;
     color: rgba(0,0,0,0.7);
 }
-/* End Header Section */
-/* Start Table Section */
+
 #table-aviation-page{
     width: 850px;
     margin-top: 550px;
@@ -616,7 +614,7 @@
     text-align: justify;
     color: #191919;
 }
-/* End Table Section */
+/* End Header Section */
 /* Start Footer Section */
 #footer-aviation-page{
     margin-top: 544px;
@@ -625,6 +623,237 @@
 }
 /* End Footer Section */
 /* End aviation.html */
+
+/* Start contact.html */
+/* Start Header Section */
+#contact-header{
+    height: 256px;
+    background-color: #04b1d8;
+}
+
+#image-menu-contact-page{
+    width: 411px;
+    height: 800px;
+    position: absolute;
+    margin-left: 180px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./images/ContactImage.png");
+    background-repeat: no-repeat;
+}
+
+.title-image-contact-page{
+    padding-top: 260px;
+    padding-left: 30px;
+    font-family: Montserrat;
+    font-size: 35.5px;
+    font-weight: bold;
+    line-height: 0.85;
+    text-align: left;
+    color: #f4f4f3;
+}
+
+#menu-contact-page{
+    width: 411px;
+    height: 479px;
+    margin-top: 30px;
+    padding-top: 50px;
+    margin-left: -15px;
+    padding-left: 30px;
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+.firm-name-menu-contact-page{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: rgba(25, 25, 25, 0.7);
+}
+
+.address-menu-contact-page{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: left;
+    color: #999999;
+}
+
+.phone-email-word-menu-contact-page{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: left;
+    color: rgba(25, 25, 25, 0.7);
+}
+
+.phone-number-menu-contact-page{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    color: #191919;
+}
+
+.email-address-menu-contact-page{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    text-align: left;
+    color: #191919;
+}
+
+.contact-page{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+.title-header-contact-page{
+    margin-bottom: -10px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.19;
+    text-align: left;
+    color: #ffffff;
+}
+
+.text-header-contact-page{
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 16.5px;
+    font-weight: bold;
+    line-height: 1.82;
+    text-align: justify;
+    color: #ffffff;
+}
+/* End Header Section */
+/* Start Form Section */
+#form-contact-page{
+    width: 850px;
+    margin-top: 300px;
+    margin-left: 115px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+input[type=text],[type=email],[type=tel]{
+    height: 50px;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #6e6e6e;
+    border: none;
+    border-radius: 0px;
+    background-color: #e9e9e9;    
+}
+
+input[type=textarea]{
+    height: 110px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    color: #6e6e6e;
+    border: none;
+    border-radius: 0px;
+    background-color: #e9e9e9;
+}
+
+.checkbox-form-contact-page { 
+    display: block; 
+    position: relative; 
+    padding-left: 45px; 
+    margin-bottom: 15px; 
+    cursor: pointer; 
+    font-size: 20px; 
+} 
+ 
+input[type=checkbox] { 
+    visibility: hidden; 
+} 
+
+.custom-checkbox-form-contact-page {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -20px; 
+    top: 0; 
+    left: 0; 
+    width: 15px;
+    height: 16px;
+    background-color: #e9e9e9; 
+} 
+
+.custom-checkbox-form-contact-page:after { 
+    content: ""; 
+    position: absolute; 
+    display: none; 
+} 
+  
+.checkbox-form-contact-page input:checked ~ .custom-checkbox-form-contact-page:after { 
+    display: block; 
+} 
+
+.checkbox-form-contact-page .custom-checkbox-form-contact-page:after { 
+    left: 5px; 
+    bottom: 4px; 
+    width: 6px; 
+    height: 11px; 
+    border: solid black; 
+    border-width: 0 2px 2px 0; 
+    transform: rotate(45deg); 
+} 
+
+#text-next-to-checkbox-form-contact-page{
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: justify;
+    color: #6e6e6e;
+}
+
+.button-form-contact-page{
+    width: 249px;
+    height: 49px;
+    padding-right: 20px;
+    margin-left: 575px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 16.5px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.17px;
+    text-align: right;
+    color: #ffffff;
+    background-color: #04b1d8;
+}
+/* End Form Section */
+/* Start Footer Section */
+#footer-contact-page{
+    margin-top: 544px;
+    padding: 40px 10px 40px 300px;
+    background-color: #273f4b;
+}
+/* End Footer Section */
+/* End contact.html */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
